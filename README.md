@@ -10,3 +10,10 @@ Gerekli:
 
 Kullanım:
 ./indir.py -b [İndirilecek Adres] [-k [İndirilecek dosyanın konumu]]
+
+~~ indir-GUI ~~
+
+Arayüz programlama Qt kütüphanesi kullanılarak yapılmıştır.
+
+Gerekli:
+PyQt4 kütüphanesi bilgisayarınızda bulunmalıdır.
