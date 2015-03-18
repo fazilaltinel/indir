@@ -127,8 +127,8 @@ class Ui_MainWindow(object):
         self.txtKayitYeri.setText(directory)
 
     def startDownloading(self):
-        baglanti = self.txtUrl.text()
-        konum = self.txtKayitYeri.text()
+        baglanti = str(self.txtUrl.text())
+        konum = str(self.txtKayitYeri.text())
         ayrik = baglanti.split("/")
         dosyaAdi = ayrik[len(ayrik)-1]
 
